@@ -12,10 +12,13 @@ def printNumber(num):
         #label2.set(label2.get()+expr)                  -> chala nhi
         label2.config(text=expr)
     elif( num=='+' or num=='-' or num=='*' or num=='/' ):
-        opr=num
-        var1=int(expr)
-        label2.config(text=opr)
-        expr=''
+        try:
+            opr=num
+            var1=int(expr)
+            label2.config(text=opr)
+            expr=''
+        except (ValueError,ZeroDivisionError):
+            label2.config(text='3RR0R')
     #equals to
     else:
         try:
