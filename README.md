@@ -1,4 +1,4 @@
-# Python Introduction
+## Python Introduction
 
 # Calculator in Python
 
@@ -9,6 +9,6 @@ Simple calculator(gui)
 I have used the tkinter package, using labels, buttons in grid layout.
 ```
 
-# Screenshots
+## Screenshots
 
 ![alt text](https://github.com/shadesrt/tkintercalc/blob/master/exi.png)
